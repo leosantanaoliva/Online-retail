@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: sales_retail_source
+    database: DB_RETAIL  # Replace with your actual database name
+    schema: PUBLIC
+    tables:
+      - name: sales_retail
+        description: "Source table containing sales transaction data."
