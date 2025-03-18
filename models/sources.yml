@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: chocolate_sales  # This is the source name you’ll reference in your models
+    database: my_dbt_database  # Your actual database name
+    schema: public  # The schema where your chocolate_sales table resides
+    tables:
+      - name: chocolate_sales  # The name of the table in the database
+        description: "Table containing chocolate sales data"
